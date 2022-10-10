@@ -9,17 +9,11 @@
 int main(void)
 {
   char ch;
-  char chu;
 
-  for (ch = 'a'; ch <= 'z' ; ch++)
+  for (ch = 'a' && ch != 'q', 'e'; ch <= 'z' ; ch++)
     {
       
     putchar (ch);
-    }
-
-  for (chu = 'A'; chu <= 'Z' ; chu++)
-    {
-      putchar (chu);
     }
   putchar ('\n');
   
