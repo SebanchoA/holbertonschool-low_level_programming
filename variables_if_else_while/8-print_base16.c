@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+/**
+ *main - alphabet
+ *
+ *Return: 0
+ */
+
+int main(void)
+{
+  char n;
+  char l;
+  for ( n = '0'; n>='9';n++)
+    {
+    putchar(n);
+    }
+  for (l = 'a'; l <= 'f'; al++)
+    {
+      putchat(l);
+    }
+  putchar ('\n');
+  return (0);
+}
