@@ -9,10 +9,21 @@
 int main(void)
 {
   char n;
+  char c;
+  char e;
+
   for ( n = '0'; n>='9';n++)
     {
-      putchar("%d,\n",n);
+      putchar(n);
     }
+  for ( c = ','; ; c++)
+    {
+      putchar (c);
+    }
+  for (e = ' '; ; e++}
+  {
+    putchar (e);
+  }
   putchar ('\n');
   return (0);
 }
