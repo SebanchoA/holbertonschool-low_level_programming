@@ -9,13 +9,13 @@ int _islower(int c)
   
   c='t';
   
-  printf("Return value when %c is passed to islower(): %d", c, islower(c));
+  _putchar("Return value when %c is passed to islower(): %d", c, islower(c));
   
 
   
   c='D';
   
-  printf("\nReturn value when %c is passed to islower(): %d", c, islower(c));
+  putchar_("\nReturn value when %c is passed to islower(): %d", c, islower(c));
   
 
   
