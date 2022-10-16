@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - check the code
@@ -7,7 +6,7 @@
  * Return: Always 0.
  */
 
-int _abs(int)
+int print_last_digit(int r)
 {
-	_abs (int x);
+	return (r % 10);
 }
