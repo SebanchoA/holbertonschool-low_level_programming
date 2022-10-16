@@ -1,4 +1,4 @@
 school:= school.c main.c
-	${CC} gcc main.c school.c -o school
-	${SRC} gcc main.c school.c -o school
+	${CC} main.c school.c -o school
+	${SRC} main.c school.c -o school
 all:
