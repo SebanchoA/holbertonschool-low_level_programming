@@ -9,10 +9,5 @@
 
 void reset_to_98(int *n)
 {
-	int c = 98;
-
-	n = &c;
-
-	printf("Value of *n variable: %d\n", *n );
-
+	*n = 98;	
 }
