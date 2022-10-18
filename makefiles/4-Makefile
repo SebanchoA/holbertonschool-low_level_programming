@@ -5,8 +5,8 @@ NAME=school
 RM=rm -f
 CFLAGS=-Wall -Werror -Wextra -pedantic
 
-all: main.c school.c
-	${CC} ${SRC} -o ${OBJ}
+${name}: ${OBJ}
+	${CC} ${SRC} ${OBJ} -o $@
 
 clean:
 	${RM} ~* ${NAME}
