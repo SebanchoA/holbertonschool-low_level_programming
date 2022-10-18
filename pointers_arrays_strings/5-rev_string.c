@@ -6,14 +6,18 @@
  * main - check the code
  *
  * Return: Always 0.
- */
+ *
+*/
 
 void rev_string(char *s)
 {
 	int i, l, temp;
 
 	l = 0;
-   	while (*s++) ++l;
+	while (s[l] != '\0')  
+	{
+		l++;
+	}
 	
 	for (i = 0; i < l/2; i++)
 	{
