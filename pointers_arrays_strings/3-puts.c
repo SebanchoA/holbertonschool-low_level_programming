@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
 
 /**
  * main - check the code
@@ -8,9 +7,10 @@
  * Return: Always 0.
  */
 
-int _strlen(char *s)
+void _puts(char *str)
 {
-	int len;
-	len = strlen(s);
-	return (len);
+	char mystr[] = str;
+
+	puts(mystr);
+
 }
