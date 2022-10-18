@@ -1,16 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _puts - prints a string
+ * @str: string input
+ * Return: String
  */
 
 void _puts(char *str)
 {
-	char mystr[] = str;
 
-	puts(mystr);
+	int i;
+
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
 
 }
