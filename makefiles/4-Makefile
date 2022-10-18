@@ -8,6 +8,8 @@ CFLAGS=-Wall -Werror -Wextra -pedantic
 ${name}: ${OBJ}
 	${CC} ${SRC} ${OBJ} -o $@
 
+all: ${NAME}
+
 clean:
 	${RM} ~* ${NAME}
 
