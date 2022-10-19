@@ -2,9 +2,10 @@
 
 
 /**
- * @a variables with values
- * @b variable
- * swap_int:  swap the variables values.
+ * swap_int - function that swap
+ * @a: variable
+ * @b: variable
+ * Return: 0
  */
 
 void swap_int(int *a, int *b)
