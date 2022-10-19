@@ -4,7 +4,6 @@
  * rev_string - a function that reverse string
  * @s: pointer
  * Return: 0.
- * 
  */
 
 void rev_string(char *s)
@@ -18,7 +17,7 @@ void rev_string(char *s)
 		l++;
 	}
 
-	for (i = 0; i < l/2; i++)
+	for (i = 0; i < l / 2; i++)
 	{
 		temp = s[i];
 		s[i] = s[l - 1 - i];
