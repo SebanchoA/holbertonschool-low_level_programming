@@ -1,11 +1,9 @@
 #include "main.h"
-#include <stdio.h>
-#include <string.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * rev_string - a function that reverse string
+ * @s: pointer
+ * Return: 0.
  *
  */
 

@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * puts2 - Write a function that prints every other character of a string, starting with the first character
+ * @str: pointer or string
+ * Return: 0
  */
 
 void puts2(char *str)
