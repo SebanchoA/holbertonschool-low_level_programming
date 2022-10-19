@@ -2,7 +2,8 @@
 
 
 /**
- * @a, @b: variables with values
+ * @a variables with values
+ * @b variable
  * swap_int:  swap the variables values.
  */
 
