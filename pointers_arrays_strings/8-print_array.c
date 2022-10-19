@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - check the code for
- *
- * Return: Always 0.
+ * print_array - Write a function that prints n elements of an array
+ * @a: pointer
+ * @n: variable
+ * Return: 0.
  */
 
 void print_array(int *a, int n)
@@ -20,8 +21,5 @@ void print_array(int *a, int n)
 			printf(" ");
 		}
 	}
-
 printf("\n");
-
 }
-
