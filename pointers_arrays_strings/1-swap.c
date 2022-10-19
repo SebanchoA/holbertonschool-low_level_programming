@@ -1,10 +1,10 @@
 #include "main.h"
-#include <stdio.h>
+
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * 
+ * @a, @b - variables with values
+ * swap_int - swap the variables values.
  */
 
 void swap_int(int *a, int *b)
