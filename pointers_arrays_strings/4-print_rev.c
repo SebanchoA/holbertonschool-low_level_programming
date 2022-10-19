@@ -1,10 +1,9 @@
 #include "main.h"
 
-
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_rev Write a function that prints a string, in reverse
+ * @s: pointer.
+ * Return: 0.
  */
 
 void print_rev(char *s)
