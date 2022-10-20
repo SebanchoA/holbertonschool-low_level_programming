@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * puts_half - Write a function that prints half of a string,
+ * @str: pointer
+ * Return: 0
  */
 
 void puts_half(char *str)
@@ -22,6 +22,5 @@ void puts_half(char *str)
 	{
 		_putchar (str[i]);
 	}
-	
 	_putchar ('\n');
 }
