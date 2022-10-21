@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcpy - Write a function that copies the string pointed to by src
+ * _strcat - Write a function that concatenate the string pointed to by src
  * @dest: Pointer.
  * @src: Pointer.
  * Return: 0
@@ -9,19 +9,13 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char *saved = dest;
+	int i, n;
 
-	while (*dest)
+	for (i = 0; dest[i] != '\0'; i++)
 	{
-		dest++;
 	}
-	*dest++ = *src++;
-		while (*src != '\0')
-		{
-			dest++;
-			src++;
-			*dest = *src;
-}
-			return (saved);
-		
+	for (n = 0; (dest[i + n] = *src++) != '\0'; n++)
+	{
+	}
+	return (dest);
 }
