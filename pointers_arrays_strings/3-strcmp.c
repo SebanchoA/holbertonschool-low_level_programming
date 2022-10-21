@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * strcmp - compares two strings
+ * @s1: Pointer
+ * @s2: Pointer
+ * Return: 0
  */
 
 int _strcmp(char *s1, char *s2)
