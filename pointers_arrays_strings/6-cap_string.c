@@ -6,31 +6,30 @@
  * Return: 0
  */
 
-char *cap_string(char *s)
+char *cap_string(char *n)
 {
-	int i;
+	int i, x;
+	int cap = 32;
+	int separators[] = {',', ';', '.', '?', '"',
+		 '(', ')', '{', '}', ' ', '\n', '\t'};
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		if (i == 0)
+		if (n[i] >= 'a' && n[i] <= 'z')
 		{
-			if (s[i] >= 'a' && s[i] <= 'z')
-				s[i] = s[i] - 32;
+			n[i] = n[i] - cap;
 		}
-		if (s[i] == ' ')
-		{
-			i++;
 
-			if (s[i] >= 'a' && s[i] <= 'z')
+		cap = 0;
+
+		for (x = 0; x <= 12; x++)
+		{
+			if (n[i] == separators[x])
 			{
-				s[i] = s[i] - 32;
+				x = 12;
+				cap = 32;
 			}
 		}
-		else
-		{
-			if (s[i] >= 'A' && s[i] <= 'Z')
-				s[i] = s[i] + 32;
-		}
 	}
-	return (s);
+	return (n);
 }
